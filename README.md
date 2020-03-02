@@ -35,4 +35,4 @@ Want to propose any changes?
 
 
 ### Licence
-(licence)[./LICENCE]
+[lisence](./LICENCE)
