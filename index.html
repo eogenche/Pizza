@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" type="text/css" href="akan.css"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- <script src="addressbook.js"></script> -->
+    <title>Address book</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="col-md-12 col-sm-12 col-lg-12 top">
+        
+    </div>
+    <div class="container-fluid">
+        <div class="row forms">
+            <div class="col-md-6 col-sm-10 col-lg-6">
+                <div class="card">
+                            <div class="card-title">
+                                <h4>Welcome to the Pizzeria </h4>
+                            </div>
+                            <form action="order">
+                                <b><label for="crust">Choose your preferred Pizza, Crust and Toppings</label><br></b>
+                                <select id="list"> 
+                                    <option value="thin" name="thin">Thin</option>
+                                    <option value="thick" name="thick">Thick</option>
+                                    <option value="glutenfree" name="glutenfree">Gluten Free</option>  
+                                    <div id="list"></div>
+                                </select>
+                                <select id="list"> 
+                                    <option value="pepparoni" name="pepparoni">Pepparoni</option>
+                                    <option value="mushrooms" name="mushrooms">Mushrooms</option>
+                                    <option value="onions" name="onions">Onions </option>
+                                    <option value="olives" name="olives">Olives</option> 
+                                    <option value="sausages" name="sausages">Sausages</option>   
+                                    <div id="list"></div>
+                                </select>
+                                <select id="list">
+                                    <option value="small" name="thin">Small:500</option>
+                                    <option value="medium" name="medium">Medium:800</option>
+                                    <option value="large" name="large">large:1000</option>
+                                    <option value="mega" name="mega">Mega:1200</option>
+                                    <div id="list"></div>                        
+                            </form>
+                        <button id="cart" onclick="extras()">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
