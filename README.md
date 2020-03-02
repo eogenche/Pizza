@@ -34,3 +34,5 @@ Want to propose any changes?
     pull request
 
 
+### Licence
+(licence)[./LICENCE]
