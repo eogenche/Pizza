@@ -4,13 +4,22 @@
  background-size: cover;
  text-align: center;
  padding: 18%;
- font-size: x-large;
+ font-size: large;
  color: white;
 }
 .card-title{
     font-family: 'Satisfy';
     font-size: x-large;
 }
+.button{
+    color: black;
+}
 #list{
+    color: black;
+}
+#list1{
+    color: black;
+}
+#list2{
     color: black;
 }
