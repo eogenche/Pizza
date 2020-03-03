@@ -38,9 +38,14 @@ $(document).ready(function() {
       var topping = parseInt($("#list2").val());
       var PizzaType = parseInt($("#list3").val());
         var total = psize+pcrust+topping;
-      alert(`total cost is ${total} .`);
+      alert("YOU have ordered"+topping+" "+ pcrust+" "+ psize+" which  cost ${total} .");
+      var p_size = $("#list").val(); 
+      var p_crust = $("#list1").val();
+      var toppings = $("#list2").val(); 
+      var p_type = $("#list3").val(); 
       
-      $("tbody").append("<tr>"+"<td>"+Tflavour+"</td>"+"<td>"+Tsize+"</td>"+"<td>" +Tcrust+ "</td>"+"<td>" + Tamount +"</td>" +"<td>"+Ttopping+ "</td>" +"<td>" +price +"</td>"+"</tr>");
+      $("tbody").append("<tr>"+"<td>"+p_type+"</td>"+"<td>"+p_crust+"</td>"+"<td>" +toppings+ "</td>"+"<td>" + total +"</td>" +"<td>"+Ttopping+ "</td>" +"<td>" +price +"</td>"+"</tr>");
+
     //   Pizza_size.prototype.Total_Price = function() {
         // return psize + pcrust+ topping;
         var orderedPizza=new Pizza("psize","pcrust","topping");
@@ -50,11 +55,11 @@ $(document).ready(function() {
     
 });
 
-// 
-//       var total = new Contact(inputtedFirstName, inputtedLastName);
+
+    //   var total = new Contact(inputtedFirstName, inputtedLastName);
   
-//       $("ul#contacts").append("<li><span class='contact'>" + newContact.firstName + "</span></li>");
+    //   $("ul#contacts").append("<li><span class='contact'>" + newContact.firstName + "</span></li>");
   
-//       $("input#new-first-name").val("");
-//       $("input#new-last-name").val("");
-//     });
+    //   $("input#new-first-name").val("");
+    //   $("input#new-last-name").val("");
+    // });
