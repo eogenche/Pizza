@@ -45,6 +45,7 @@ $(document).ready(function() {
       var p_type = $("#list3").val(); 
       
       $("tbody").append("<tr>"+"<td>"+p_type+"</td>"+"<td>"+p_crust+"</td>"+"<td>" +toppings+ "</td>"+"<td>" + total +"</td>" +"<td>"+Ttopping+ "</td>" +"<td>" +price +"</td>"+"</tr>");
+      
 
     //   Pizza_size.prototype.Total_Price = function() {
         // return psize + pcrust+ topping;
