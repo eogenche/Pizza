@@ -22,12 +22,12 @@
                                 <form action="order">
                                     <b><label id="crust">Choose your preferred Pizza, Crust and Toppings</label><br></b>
                                     <select id="list3"> 
-                                        <option id="listTitle" value=0 name="listTitle">Select Pizza Type</option>
-                                        <option id="pepparoni" value=0 name="pepparoni">Chicken PeriPeri</option>
-                                        <option id="mushrooms" value=0 name="mushrooms">BoreWores</option>
-                                        <option id="onions" value=0 name="onions">Vegiterian pizza </option>
-                                        <option id="olives" value=0 name="olives">Beef barbeque</option> 
-                                        <option id="sausages" value=0 name="sausages">Hawaiian</option> 
+                                        <option id="listTitle" value="null" name="listTitle">Select Pizza Type</option>
+                                        <option id="pepparoni" value="Chicken" PeriPeri name="pepparoni">Chicken PeriPeri</option>
+                                        <option id="mushrooms" value="BoreWores" name="mushrooms">BoreWores</option>
+                                        <option id="onions" value="Vegiterian" pizza name="onions">Vegiterian pizza </option>
+                                        <option id="olives" value="Beef" barbeque name="olives">Beef barbeque</option> 
+                                        <option id="sausages" value="Hawaiian" name="sausages">Hawaiian</option> 
                                     </select>
                                     <select id="list1"> 
                                         <option id="listTitle" value=0 name="listTitle">Select Crust</option>
@@ -39,21 +39,21 @@
                                     <select id="list2"> 
                                         <option id="listTitle" value=0 name="listTitle">Select Topping</option>
                                         <option id="pepparoni" value=50 name="pepparoni">Pepparoni</option>
-                                        <option id="mushrooms" value=50 name="mushrooms">Mushrooms</option>
-                                        <option id="onions" value=50 name="onions">Onions </option>
-                                        <option id="olives" value=50 name="olives">Olives</option> 
-                                        <option id="sausages" value=50 name="sausages">Sausages</option>   
+                                        <option id="mushrooms" value=55 name="mushrooms">Mushrooms</option>
+                                        <option id="onions" value=60 name="onions">Onions </option>
+                                        <option id="olives" value=65 name="olives">Olives</option> 
+                                        <option id="sausages" value=70 name="sausages">Sausages</option>   
                                         <div id="list2"></div>
                                     </select>
                                     <select id="list">
-                                        <option id="ListTitle" value=0 name="small">Select Size</option>
-                                        <option id="small" value=500 name="small">Small 500ksh</option>
-                                        <option id="medium" value=800 name="medium">Medium 800ksh</option>
-                                        <option id="large" value=1000 name="large">large 1000ksh</option>
-                                        <option id="mega" value=1200 name="mega">Mega 1200ksh</option>
+                                        <option id="ListTitle" value=0>Select Size</option>
+                                        <option id="small" value=500>Small 500ksh</option>
+                                        <option id="medium" value=800 >Medium 800ksh</option>
+                                        <option id="large" value=1000 >large 1000ksh</option>
+                                        <option id="mega" value=1200 >Mega 1200ksh</option>
                                     </select>
                                         <label> 
-                                        <button type="button" id="button" class="button">ADD TO CART</button>
+                                        <button type="button" id="button" class="button" onclick="sizeSelector();">ADD TO CART</button>
                                         </label>                 
                                     </form>
                     </div>
