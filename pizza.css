@@ -1,11 +1,13 @@
 .container-fluid { 
- background-image: url("images/fresh-pizza-tomatoes-cheese-mushrooms-260nw-528695131.webp");
- align-items: center;
+ background-image: url("images/close-up-hand-cutting-pizza-with-sharp-knife_23-2147922399.jpg");
  background-size: cover;
+ background-image: no-repeat;
  text-align: center;
- padding: 18%;
- font-size: large;
- color: white;
+ padding: 8%;
+ font-size: medium;
+ color: rgb(34, 11, 11);
+ opacity: 0.8;
+
 }
 .card-title{
     font-family: 'Satisfy';
@@ -16,6 +18,7 @@
 }
 #list{
     color: black;
+    border: black;
 }
 #list1{
     color: black;
@@ -28,5 +31,5 @@
 }
 #crust{
     font-family: 'Satisfy';
-    font-size: 100px; 
+    font-size: 100px;
 }
