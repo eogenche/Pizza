@@ -32,10 +32,10 @@ var pizza_topping={
 
 
 
-var total, finalTotal;
 
 
 function sizeSelector(){
+    var total, finalTotal;
     var psize = parseInt(document.getElementById('list').value);
     var pcrust = parseInt(document.getElementById('list1').value);
     var topping = parseInt(document.getElementById('list2').value);
@@ -45,17 +45,17 @@ function sizeSelector(){
     var toppings =["pepparoni","mushrooms","onions","olives","sausages"];
     var total = psize + pcrust +topping;
     var sizeName, p_crust, topping1;
+
     if(psize==500){
         sizeName = pizzaSizes[0];
     }else if(psize==800){
         sizeName = pizzaSizes[1];
-        alert(sizeName);
     }else if(psize==1000){
         sizeName = pizzaSizes[2];
-        alert(sizeName);
     }else if(psize==1200){
          sizeName = pizzaSizes[3];
     }
+
     if(pcrust==100){
         p_crust = crust1[0];
     }else if(pcrust==200){
@@ -63,10 +63,12 @@ function sizeSelector(){
     }else if(pcrust==300){
         p_crust = crust1[2];
     }
+
     if(topping==50){
         topping1 = toppings[0];
     }else if(topping==55){
         topping1 = toppings[1];
+        
     }else if(topping==60){
         topping1 = toppings[2];
     }
@@ -81,7 +83,7 @@ function sizeSelector(){
     if(delivery){
         total=total+150;
         var location = prompt("Please enter your location");
-        alert("Your pizza choice"  + pizza_flavour+" "+"of size"+" "+sizeName+" "+ "with a "+p_crust+" "+ crust and with "+topping1+"will be delivered to "+location + " at Ksh 150.Total cost is "+total);
+        alert("Your pizza choice"+" "+ pizza_flavour +" "+"of size"+" "+sizeName+" "+ "with a "+p_crust+" "+ "crust and with "+topping1+" "+ "topping will be delivered to "+location + " at Ksh 150.Total cost is "+total);
         }
     }
 
