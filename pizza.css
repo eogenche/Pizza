@@ -1,0 +1,25 @@
+.container-fluid { 
+ background-image: url(fresh-pizza-tomatoes-cheese-mushrooms-260nw-528695131.webp);
+ align-items: center;
+ background-size: cover;
+ text-align: center;
+ padding: 18%;
+ font-size: large;
+ color: white;
+}
+.card-title{
+    font-family: 'Satisfy';
+    font-size: x-large;
+}
+.button{
+    color: black;
+}
+#list{
+    color: black;
+}
+#list1{
+    color: black;
+}
+#list2{
+    color: black;
+}
